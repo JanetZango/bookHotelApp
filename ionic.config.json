@@ -1,0 +1,7 @@
+{
+  "name": "BookingApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

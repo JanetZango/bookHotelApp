@@ -1,0 +1,55 @@
+page-home {
+.back{
+    background:radial-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.527)),url('../../assets/hotel5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0 auto;
+    position:relative;
+}
+.btn{
+    margin-top:15%;
+    width:70%;
+    margin-left:15%;  
+    position:relative;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.151);
+    box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.452);
+   
+}
+.move{
+    margin-top:40%;
+}
+.item{
+    background-color: rgba(0, 0, 0, 0.116);
+    color:white;
+    width:140%;
+    margin-left:-20%;
+    position:relative;
+    border-radius: 100px;
+    box-shadow: 1px 2px 7px rgba(255, 255, 255, 0.452);
+ 
+  
+    
+}
+.id{
+    border-radius: 100%;
+}
+.flex{
+ display: flex;
+justify-content:center;
+
+
+}
+.btn1{
+    margin-top:10%;
+    color:white;
+    
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    margin-top:20%;
+    font-size:3em;
+}
+}

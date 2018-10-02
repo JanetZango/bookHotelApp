@@ -1,0 +1,27 @@
+<ion-content class="back">
+  <h1 style="color:white">First World Hotel</h1>
+  <ion-list class="move">
+    <div class="flex">
+      <div class="container">
+        <ion-item class="item">
+          <ion-label stacked>Username:</ion-label>
+          <ion-input type="text" [(ngModel)]="obj.email"></ion-input>
+        </ion-item>
+      </div>
+    </div>
+  </ion-list>
+  <ion-list>
+    <div class="flex"> 
+      <div class="container">
+        <ion-item class="item">
+          <ion-label stacked>Password:</ion-label>
+          <ion-input type="text" [(ngModel)]="obj.password"></ion-input>
+        </ion-item>
+      </div>
+    </div>
+  </ion-list>
+    <button ion-button class="btn" block round (click)="sigin(obj)">Sign in</button>
+  <div class="btn1">
+    <button ion-button clear block round color="light" (click)="nextpage1()">Sign up</button>
+  </div>
+</ion-content> 

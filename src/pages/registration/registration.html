@@ -1,0 +1,50 @@
+
+<ion-content class="back">
+  <div id="menu" align="center">
+      <h1 style="color:white">Registration</h1>
+  </div>
+  <br>
+  <ion-card class="card">
+    <ion-list class="move">
+        <div class="flex">
+          <div class="container">
+            <ion-item id="item">
+              <ion-label stacked>Username:</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+          </div>
+        </div>
+      </ion-list>
+      <ion-list>
+        <div class="flex"> 
+          <div class="container">
+            <ion-item id="item">
+              <ion-label stacked>Email:</ion-label>
+              <ion-input type="text" [(ngModel)]="obj.email"></ion-input>
+            </ion-item>
+          </div>
+        </div>
+      </ion-list>
+      <ion-list>
+          <div class="flex"> 
+            <div class="container">
+              <ion-item id="item">
+                <ion-label stacked>PhoneNumber:</ion-label>
+                <ion-input type="text"></ion-input>
+              </ion-item>
+            </div>
+          </div>
+        </ion-list>
+        <ion-list>
+            <div class="flex"> 
+              <div class="container">
+                <ion-item id="item">
+                  <ion-label stacked>Password:</ion-label>
+                  <ion-input type="text" [(ngModel)]="obj.password"></ion-input>
+                </ion-item>
+              </div>
+            </div>
+          </ion-list>
+              <button ion-button class="btn" block round (click)="register(obj)">Sign up</button>
+          </ion-card>
+</ion-content>

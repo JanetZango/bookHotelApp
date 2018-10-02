@@ -1,0 +1,46 @@
+<ion-content>
+  <div class="background">
+      <button ion-button clear (click)="logout()"><ion-icon icon-only color="light"name="close"></ion-icon></button>
+    <div class="size">
+      {{obj.name}}
+      <br>
+      <p>Please check if everything is in order
+        <br> and confirm your reservation
+        <br>
+        <br>
+      </p>
+      <h1 style="color:white">Have a wonderful stay!</h1>
+    </div>
+  </div>
+  <div class="background1">
+    <div class="container">
+      <div>
+        <p class="p">Arrival Date</p>
+        <div class="border">
+          <div class="size1">
+            {{obj.checkin | date: longDate}}
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="p">Departure Date</p>
+        <div class="border">
+          <div class="size1">
+            {{obj.checkout | date: longDate}}
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p class="p">Room No</p>
+          <div class="size3">{{obj.roomNo}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <div class="foot">
+    <ion-title>Confirmation Reservation</ion-title>
+  </div>
+</ion-footer>

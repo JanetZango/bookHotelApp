@@ -1,0 +1,35 @@
+page-registration {
+    .back{
+        background:radial-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.37)),url('../../assets/hotel5.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin:0 auto;
+    }
+
+    ion-item#item{
+        background-color: rgba(0, 0, 0, 0.603);
+        color:white;
+        width:130%;
+        margin-left:-15%;
+        padding:2%;
+      
+        
+    }
+    .flex{
+     display: flex;
+    justify-content:center;
+    
+    }
+    .btn{
+        margin-top:15%;
+        width:80%;
+        margin-left:10%;  
+        background-color:rgba(0, 0, 0, 0.61);
+        box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.493);
+    }
+    .card{
+        background-color:rgba(0, 0, 0, 0.116);
+    
+    }
+}

@@ -1,0 +1,35 @@
+page-bookingform {
+    .back{
+        background:radial-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.37)),url('../../assets/flower1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin:0 auto;
+    }
+
+    ion-item#item{
+        background-color: rgba(139, 69, 19, 0);
+        padding-left:5%;
+        color:white;
+        width:150%;
+        margin-left:-20%;
+      
+        
+    }
+    .flex{
+     display: flex;
+    justify-content:center;
+    
+    }
+    .btn{
+        margin-top:15%;
+        width:80%;
+       background-color:  rgba(139, 69, 19, 0.336);
+        margin-left:10%;  
+    }
+    .card{
+        background-color:rgba(54, 39, 27, 0.336);
+        margin-top:10%;
+    
+    }
+}

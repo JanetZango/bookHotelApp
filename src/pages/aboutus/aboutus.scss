@@ -1,0 +1,47 @@
+page-aboutus {
+    .back{
+        background:radial-gradient(rgba(0, 0, 0, 0.356),rgba(0, 0, 0, 0.37)),url('../../assets/hotel99.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        padding:0;
+        margin:0 auto;
+        height:55%;
+        position: relative;
+   
+    }
+    .p{
+        color:white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:1em;
+    }
+    .t{
+        color:black;
+        font-size:x-small;
+        padding:5%;
+        text-align: center;
+    }
+    .move{
+        margin-top:10%;
+        position: relative;
+    }
+    h4{
+        text-align: center;
+    }
+    .slant{
+        position: absolute;
+        border-right: 110vw solid rgb(255, 255, 255);
+        border-bottom: 25vh solid rgb(255, 255, 255);
+        border-top: 10vh solid transparent;
+        top:43%
+    }
+.icon{
+    color:white;
+    margin-left:80%;
+    margin-top:-10%;
+}
+.font{
+    font-size: 1em;
+}
+
+}

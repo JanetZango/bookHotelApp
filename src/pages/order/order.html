@@ -1,0 +1,23 @@
+<ion-content>
+  <button ion-button clear (click)="next()" color="dark"><ion-icon name="arrow-back"></ion-icon></button>
+  <ion-card class="card">
+      <div id="menu" align="center">
+          <img src="../../assets/chef.jpg">
+        </div>
+    <ion-list>
+      <div class="move">
+        <ion-item>
+          <ion-label stacked>type of dish </ion-label>
+          <ion-input type="text" [(ngModel)]="food"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked>Number Of people</ion-label>
+          <ion-input type="password" [(ngModel)]="people"></ion-input>
+        </ion-item>
+      </div>
+        <button ion-button class="btn" color="dark" (click)="order()">Place Order</button>
+       
+    </ion-list>
+  </ion-card>
+</ion-content>
