@@ -5,6 +5,7 @@ import { obj } from '../../app/class';
 import { ToastController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { LoadingController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the RegistrationPage page.
@@ -27,6 +28,11 @@ export class RegistrationPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegistrationPage');
   }
+
+  goback(){
+    this.navCtrl.pop();
+  }
+
 
   register(obj: obj) {
     firebase.auth().createUserWithEmailAndPassword(obj.email, obj.password).then(() => {

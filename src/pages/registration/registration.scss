@@ -16,6 +16,15 @@ page-registration {
       
         
     }
+    .item{
+        width:140%;
+        margin-left:-20%;
+        border-radius: 100px;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.116);
+        box-shadow: 1px 2px 7px rgba(255, 255, 255, 0.452);
+    }
+
     .flex{
      display: flex;
     justify-content:center;
@@ -23,13 +32,17 @@ page-registration {
     }
     .btn{
         margin-top:15%;
-        width:80%;
-        margin-left:10%;  
+        width:60%;
+        margin-left:20%;  
         background-color:rgba(0, 0, 0, 0.61);
         box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.493);
     }
     .card{
         background-color:rgba(0, 0, 0, 0.116);
     
+    }
+    ion-icon{
+        padding:5%;
+
     }
 }
